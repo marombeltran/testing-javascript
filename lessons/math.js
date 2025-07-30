@@ -1,4 +1,4 @@
-const sum = (a, b) => a - b; // intentionally entered
+const sum = (a, b) => a - b; // entered intentionally
 const subtract = (a, b) => a - b;
 
 const sumAsync = (...args) => Promise.resolve(sum(...args));
