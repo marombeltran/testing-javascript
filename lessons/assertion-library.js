@@ -20,7 +20,11 @@ test("sumAsync adds numbers asynchronously", async () => {
   expect(result).toBe(expected);
 });
 
-// test("", async () => {});
+test("subtractAsync subtracts numbers asynchronously", async () => {
+  const result = await subtractAsync(7, 3);
+  const expected = 4;
+  expect(result).toBe(expected);
+});
 
 async function test(title, callback) {
   try {
